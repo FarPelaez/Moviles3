@@ -1,0 +1,36 @@
+.pagination {
+    display:flex;
+    justify-content: center;
+}
+
+.less {
+    background-color: rgb(209, 209, 209);
+    color: black;
+    border-radius: 10px;
+}
+
+.more {
+     background-color: rgb(209, 209, 209);
+    color: black;
+    border-radius: 10px;
+}
+
+.article-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.article-date {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.article-description {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.page-number{
+    font-size: 25px;
+    margin: 0 20px;
+}

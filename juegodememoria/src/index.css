@@ -1,0 +1,56 @@
+.container {
+  background: #f0eded;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+
+.tablero {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 900px;
+  justify-content: center;
+}
+
+.check {
+  height: 200px;
+  align-self: center;
+  pointer-events: none;
+}
+
+.selected {
+  pointer-events: none;
+}
+
+.noselected {
+  pointer-events: all;
+}
+
+img {
+  display: flex;
+  margin: 2px;
+  padding: 2px 2px 2px 2px;
+}
+
+h1 {
+  display: block;
+  font-size: 6rem;
+  text-align: center;
+  height: 15vh;
+  line-height: 20vh;
+  color: #000000;
+  font-family: "Bebas Neue";
+  font-weight: 900;
+  margin: 0 0 0 0;
+}
+
+h3 {
+  color: #d52e3f;
+  text-decoration: none;
+  font-family: "Bebas Neue";
+  font-size: 2rem;
+}

@@ -1,0 +1,56 @@
+body {
+  background-image: url(https://wallpaperaccess.com/full/3382486.jpg);
+  background-size: cover;
+  background-color: black;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid white;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.board div {
+  width: 40px;
+  height: 40px;
+}
+
+.bullets {
+  background-color: red;
+}
+
+.aliens {
+  background: no-repeat center/100% url("./img/alien.png");
+}
+
+.ship {
+  background: no-repeat center/120% url("./img/ship.png");
+}
+
+.explosion {
+  background: no-repeat center/100% url("./img/explosion.png");
+}
+
+.laser {
+  background: linear-gradient(
+    90deg, rgba(0,0,0,0) 35%, 
+    rgb(255, 105, 5) 50%, 
+    rgba(0,0,0,0) 65%);
+}
+
+h1 {
+  font-family: "Alien", sans-serif;
+  font-size: 100px;
+  text-align: center;
+  background: linear-gradient(green, purple, yellow);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+} 
